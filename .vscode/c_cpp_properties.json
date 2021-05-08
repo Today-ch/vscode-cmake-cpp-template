@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "d:/lenovosoftstore/install/mingw/include/**",
+                "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++",
+                "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/mingw32",
+                "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/backward",
+                "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/include",
+                "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../include",
+                "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__GNUC__=6",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "${workspaceRoot}",
+                    "d:/lenovosoftstore/install/mingw/include/**",
+                    "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++",
+                    "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/mingw32",
+                    "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/backward",
+                    "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/include",
+                    "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../include",
+                    "d:/lenovosoftstore/install/mingw/bin/../lib/gcc/mingw32/9.2.0/include-fixed"
+                ]
+            },
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compilerPath": "D:\\LenovoSoftstore\\Install\\MinGw\\bin\\g++.exe"
+        }
+    ],
+    "version": 4
+}

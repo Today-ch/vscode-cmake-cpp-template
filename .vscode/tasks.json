@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}/build"
+        //指定命令执行所在路径
+    },
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cmake",
+            "command": "cmake",
+            "args": [
+                "..",
+            ]
+        },
+        {
+            "label": "make",//要执行的第二个make命令
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make.exe",//C:/MinGW/bin/mingw32-make.exe->make.exe
+            "args": [
+            ]
+        },
+        {
+            "label": "Build",
+            "dependsOn":[
+                "cmake",
+                "make"
+            ],
+            "detail": "调试器生成的任务。"
+        },
+    ],
+}
